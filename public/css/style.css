@@ -4,6 +4,7 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh;
+  /* width: 100%; */
 }
 .container {
   flex: 1;
@@ -23,7 +24,7 @@ body {
 /* Footer */
 .f-info-links a {
   text-decoration: none;
-  color: #222222;
+  color: #fff;
 }
 .f-info-links,
 .f-info-socials,
@@ -44,14 +45,15 @@ body {
 }
 
 .f-info {
-  width: 100%;
+  width: 100% !important;
   display: flex;
   height: 8rem;
-  background-color: #ebebeb;
+  background-color: #111;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: space-between;
   align-items: space-evenaly;
   text-align: center;
+  color: #ffff;
 }
 /* Card */
 .listing-card {
@@ -118,11 +120,11 @@ body {
   color: black !important;
 }
 
-@media screen and (max-width: 850px) {
+/* @media screen and (max-width: 850px) {
   .navbar {
     width: 115% !important;
   }
   .f-info {
     width: 115% !important;
   }
-}
+} */
