@@ -120,6 +120,9 @@ body {
 
 @media screen and (max-width: 850px) {
   .navbar {
-    width: 100% !important;
+    width: 115% !important;
+  }
+  .f-info {
+    width: 115% !important;
   }
 }
